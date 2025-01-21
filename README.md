@@ -78,13 +78,14 @@ Optimized resource allocation.
 Improved sales team performance through focused efforts.
 Increased profitability through data-driven strategies.
 
+### Process
 ### Data Cleaning and Analysis
 Data Cleaning:
 Check for missing or null values and decide on imputation strategies.
 Handle duplicates if any exist.
 Normalize or transform data (e.g., date formats, categories).
 
-###Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 Analyze sales trends over time (e.g., monthly, yearly).
 Identify seasonal patterns and peaks.
 Explore relationships between sales and external factors (e.g., marketing spend, regional performance).
