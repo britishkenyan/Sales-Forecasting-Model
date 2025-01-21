@@ -51,6 +51,12 @@ Sales-Forecasting-Model-Excel-PowerBI/
 ├── scripts/
 ```
 
+```
+git add .
+git commit -m "Initial repository setup with folder structure and documentation"
+git push origin main
+```
+
 
 ## Tools & Technologies
 - **Excel**: Data cleaning and exploratory analysis.
