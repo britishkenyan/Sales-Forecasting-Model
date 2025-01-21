@@ -42,6 +42,7 @@ Sales-Forecasting-Model-Excel-PowerBI/
 └── .gitignore                      # Ignore unnecessary files
 ````
 
+----
 Folder Structure
 ```
 Sales-Forecasting-Model-Excel-PowerBI/
@@ -50,12 +51,16 @@ Sales-Forecasting-Model-Excel-PowerBI/
 ├── reports/
 ├── scripts/
 ```
+----
 
 ```
+git add folder/file1 folder/file2
+git commit
+```
+
 git add .
 git commit -m "Initial repository setup with folder structure and documentation"
 git push origin main
-```
 
 
 ## Tools & Technologies
