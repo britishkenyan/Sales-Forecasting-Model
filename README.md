@@ -38,11 +38,6 @@ Sales-Forecasting-Model-Excel-PowerBI/
 ````
 
 
-```
-git add folder/file1 folder/file2
-git commit
-git push origin main
-```
 
 
 
@@ -105,23 +100,25 @@ This project is licensed under the MIT License.
 
 * *to clone the repository:* *
 
-  <!---
-Folder Structure
-```
-Sales-Forecasting-Model-Excel-PowerBI/
-├── data/
-├── notebooks/
-├── reports/
-├── scripts/
-<!--- ## Repository Structure
-- **data/**: Raw and processed datasets.
-- **notebooks/**: Analysis and visualization preparation.
-- **reports/**: Project documentation and data narrative.
-- **scripts/**: Automation scripts for data cleaning and visualization.
-- **README.md**: Overview of the project. ---
-```
+<!---Storytelling Framework
+Start with the "Why" (Purpose):
 
+Highlight the importance of forecasting for resource optimization and decision-making.
+Show the problem/opportunity (e.g., missed sales targets or inefficient allocations).
+Present Key Insights:
 
+Use the sales trends to showcase growth, seasonality, and areas of potential improvement.
+Highlight external factors (e.g., inflation, competitor sales) influencing performance.
+Show the Forecasting Impact:
+
+Compare historical performance to the model's predictions.
+Emphasize how the model can preempt challenges (e.g., inventory shortages) and optimize resources.
+Interactive Dashboards for Decision-Making:
+
+Create dynamic Power BI visuals that allow stakeholders to drill down into specific regions, products, or timelines.
+Conclude with Value:
+
+Summarize ROI and actionable recommendations.
 
    ```bash
    git clone https://github.com/username/Sales-Forecasting-Model-Excel-PowerBI.git
