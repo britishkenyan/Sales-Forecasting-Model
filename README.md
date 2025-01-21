@@ -75,6 +75,6 @@ Increased profitability through data-driven strategies.
 
 
 
-* *To Clone the repository:* *
+* *to clone the repository:* *
    ```bash
    git clone https://github.com/username/Sales-Forecasting-Model-Excel-PowerBI.git
