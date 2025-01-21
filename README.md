@@ -59,6 +59,16 @@ A robust sales forecasting model using Excel and Power BI.
 Integration of economic, operational, and market trend data for accurate predictions.
 Visual dashboards to guide strategic decisions in real-time.
 
+### Key Features:
+- Real-time, interactive dashboards for performance monitoring.
+- Insights into high-growth opportunities and resource optimization.
+- Scalable design for different industries and datasets.
+
+### Impact:
+- Optimized resource allocation.
+- Improved sales team performance through focused efforts.
+- Increased profitability through data-driven strategies.
+
 ### Methodology:
 - Data Integration: Merging sales data with additional datasets to uncover hidden patterns.
 - Analysis: Insights into profitability, seasonality, and marketing impact.
@@ -93,15 +103,6 @@ sales_trend = sales_trend.sort_values(by=["YEARS", "MONTH_NUM"])
 ```
 
 
-### Key Features:
-Real-time, interactive dashboards for performance monitoring.
-Insights into high-growth opportunities and resource optimization.
-Scalable design for different industries and datasets.
-
-### Impact:
-Optimized resource allocation.
-Improved sales team performance through focused efforts.
-Increased profitability through data-driven strategies.
 
 
 
@@ -112,8 +113,7 @@ Stay tuned for insights and forecasts from our sales data analysis.
 This project is licensed under the MIT License.
 
 
-* *to clone the repository:* *
-  
+
 <!-- Insights Extraction:
 Highlight key findings (e.g., regions with the highest growth, product category performance).
 Identify outliers or anomalies in sales data.
@@ -139,5 +139,9 @@ Conclude with Value:
 
 Summarize ROI and actionable recommendations.
 
+
+
+
+* *to clone the repository:* *
    ```bash
    git clone https://github.com/username/Sales-Forecasting-Model-Excel-PowerBI.git
