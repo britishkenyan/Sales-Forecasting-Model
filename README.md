@@ -42,25 +42,15 @@ Sales-Forecasting-Model-Excel-PowerBI/
 └── .gitignore                      # Ignore unnecessary files
 ````
 
-----
-Folder Structure
-```
-Sales-Forecasting-Model-Excel-PowerBI/
-├── data/
-├── notebooks/
-├── reports/
-├── scripts/
-```
-----
 
 ```
 git add folder/file1 folder/file2
 git commit
+git push origin main
 ```
 
-git add .
-git commit -m "Initial repository setup with folder structure and documentation"
-git push origin main
+
+
 
 
 ## Tools & Technologies
@@ -101,5 +91,15 @@ This project is licensed under the MIT License.
 
 
 * *to clone the repository:* *
+
+  <!---
+Folder Structure
+```
+Sales-Forecasting-Model-Excel-PowerBI/
+├── data/
+├── notebooks/
+├── reports/
+├── scripts/
+```
    ```bash
    git clone https://github.com/username/Sales-Forecasting-Model-Excel-PowerBI.git
