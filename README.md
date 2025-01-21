@@ -82,9 +82,9 @@ Visual dashboards to guide strategic decisions in real-time.
 - Documentation and Finalization
 
 ### Exploratory Data Analysis (EDA):
-Analyze sales trends over time (e.g., monthly, yearly).
-Identify seasonal patterns and peaks.
-Explore relationships between sales and external factors (e.g., marketing spend, regional performance)
+- Analyze sales trends over time (e.g., monthly, yearly).
+- Identify seasonal patterns and peaks.
+- Explore relationships between sales and external factors (e.g., marketing spend, regional performance)
 
 ** Aggregating sales by cost/quantity by months/years.
 ```
@@ -111,6 +111,38 @@ Stay tuned for insights and forecasts from our sales data analysis.
 
 📝 License
 This project is licensed under the MIT License.
+
+<!--Steps to Aggregate Sales by Month and Year in Power BI:
+Load Data:
+
+Import your dataset into Power BI.
+Create a Date Column:
+
+If your dataset doesn't have a single Date column, combine the YEARS and MONTHS columns into a date field.
+In Power Query, create a custom column using a formula:
+powerquery
+Copy
+Edit
+Date.FromText("1 " & [MONTHS] & " " & Text.From([YEARS]))
+This assumes that the first day of each month is used.
+Group and Aggregate Data:
+
+Go to the Data View or Model View.
+
+Use DAX to create a calculated column or measure for the aggregation.
+
+DAX Examples:
+
+Total Sales (COST):
+DAX
+Copy
+Edit
+Total Sales = SUM(SalesTable[COST])
+Monthly Aggregation:
+DAX
+Copy
+Edit
+Monthly Sales = CALCULATE(SUM(SalesTable[COST]), ALLEXCEPT(SalesTable, SalesTable[YEARS], SalesTable[MONTHS]))
 
 
 
