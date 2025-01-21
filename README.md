@@ -74,7 +74,23 @@ Visual dashboards to guide strategic decisions in real-time.
 ### Exploratory Data Analysis (EDA):
 Analyze sales trends over time (e.g., monthly, yearly).
 Identify seasonal patterns and peaks.
-Explore relationships between sales and external factors (e.g., marketing spend, regional performance).
+Explore relationships between sales and external factors (e.g., marketing spend, regional performance)
+
+** Aggregating sales by cost/quantity by months/years.
+```
+# Convert MONTHS to numerical format for ordering
+month_order = {
+    "January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June": 6,
+    "July": 7, "August": 8, "September": 9, "October": 10, "November": 11, "December": 12
+}
+sales_data["MONTH_NUM"] = sales_data["MONTHS"].map(month_order)
+
+# Aggregate sales data by year and month
+sales_trend = sales_data.groupby(["YEARS", "MONTH_NUM"]).agg({"COST": "sum"}).reset_index()
+
+# Sort data chronologically
+sales_trend = sales_trend.sort_values(by=["YEARS", "MONTH_NUM"])
+```
 
 
 ### Key Features:
