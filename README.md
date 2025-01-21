@@ -10,12 +10,7 @@ This project leverages data integration, analysis, and visualization to build a 
 - Dynamic dashboards for real-time performance tracking.
 - Predictive insights to guide strategic sales efforts.
 
-## Repository Structure
-- **data/**: Raw and processed datasets.
-- **notebooks/**: Analysis and visualization preparation.
-- **reports/**: Project documentation and data narrative.
-- **scripts/**: Automation scripts for data cleaning and visualization.
-- **README.md**: Overview of the project.
+
 
 ### Project Structure
 ````
@@ -100,6 +95,15 @@ Sales-Forecasting-Model-Excel-PowerBI/
 ├── notebooks/
 ├── reports/
 ├── scripts/
+<!--- ## Repository Structure
+- **data/**: Raw and processed datasets.
+- **notebooks/**: Analysis and visualization preparation.
+- **reports/**: Project documentation and data narrative.
+- **scripts/**: Automation scripts for data cleaning and visualization.
+- **README.md**: Overview of the project. ---
 ```
+
+
+
    ```bash
    git clone https://github.com/username/Sales-Forecasting-Model-Excel-PowerBI.git
