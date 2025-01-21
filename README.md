@@ -65,11 +65,11 @@ Visual dashboards to guide strategic decisions in real-time.
 - Forecasting: Predictive modeling for sales trends across regions, products, and timeframes.
 
 ### Project Steps
-Data Cleaning and Preparation (Completed)
-Exploratory Data Analysis (EDA)
-Sales Forecasting Model Development
-Visualization and Dashboard Creation
-Documentation and Finalization
+- Data Cleaning and Preparation (Completed)
+- Exploratory Data Analysis (EDA)
+- Sales Forecasting Model Development
+- Visualization and Dashboard Creation
+- Documentation and Finalization
 
 ### Exploratory Data Analysis (EDA):
 Analyze sales trends over time (e.g., monthly, yearly).
