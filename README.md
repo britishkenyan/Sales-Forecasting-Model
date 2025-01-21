@@ -42,6 +42,16 @@ Sales-Forecasting-Model-Excel-PowerBI/
 └── .gitignore                      # Ignore unnecessary files
 ````
 
+Folder Structure
+```
+Sales-Forecasting-Model-Excel-PowerBI/
+├── data/
+├── notebooks/
+├── reports/
+├── scripts/
+```
+
+
 ## Tools & Technologies
 - **Excel**: Data cleaning and exploratory analysis.
 - **Power BI**: Interactive dashboards and visualizations.
