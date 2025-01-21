@@ -72,7 +72,11 @@ Optimized resource allocation.
 Improved sales team performance through focused efforts.
 Increased profitability through data-driven strategies.
 
+📈 Results
+Stay tuned for insights and forecasts from our sales data analysis.
 
+📝 License
+This project is licensed under the MIT License.
 
 
 * *to clone the repository:* *
